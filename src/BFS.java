@@ -2,7 +2,7 @@ import java.util.*;
 
 public class BFS {
     /**
-     * Bread-First Search
+     * Breadth-First Search
      * */
     public boolean bfs(HashMap<String, List<String>> graph, String key, String search) {
         Deque<String> deque = new ArrayDeque<>(graph.get(key));
